@@ -5,7 +5,18 @@ public class Main{
 		Scanner in = new Scanner(System.in);
 		System.out.print("tell me what's your name:");
 		String name = in.next();
-		System.out.println("hello," + name);
+		System.out.print("How old are you:");
+		int age = in.nextInt();
+		System.out.println("Hello," + name);
+		if(age < 18){
+			System.out.println("oh,you are a kid");
+
+		}else{
+
+			System.out.println("you are a man");
+		}
+		
+
 
 	}
 }
